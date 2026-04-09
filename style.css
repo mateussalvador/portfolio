@@ -174,6 +174,10 @@ h2 {
   background-color: var(--preto-2);
 }
 
+#formacao .container {
+  padding-bottom: 50px;
+}
+
 #formacao .container .formacoes > p {
   max-width: 550px;
   margin-bottom: 50px;
@@ -203,6 +207,10 @@ h2 {
   background-color: var(--preto);
   padding: 20px;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
 }
 
 .graduacao::before {
