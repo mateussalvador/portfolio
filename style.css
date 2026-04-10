@@ -366,6 +366,7 @@ footer {
 footer p {
   font-size: 2rem;
   color: var(--cinza-2);
+  text-align: center;
 }
 
 @media (max-width: 1200px) {
