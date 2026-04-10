@@ -435,6 +435,12 @@ footer p {
   }
 }
 
+@media (max-width: 690px) {
+  .logo {
+    text-align: center;
+  }
+}
+
 @media (max-width: 600px) {
   .profile-text {
     display: flex;
@@ -450,12 +456,30 @@ footer p {
     left: -40px;
   }
 
+  .profile-text p,
+  #contato p {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  #contato p {
+    margin-bottom: 30px;
+  }
+
   .experiencias .xp {
     flex-direction: column;
   }
   .profile img,
   .profile .profile-image {
     display: none;
+  }
+
+  #formacao p {
+    font-size: 2rem;
+  }
+
+  #contato {
+    padding: 100px 0;
   }
 }
 
