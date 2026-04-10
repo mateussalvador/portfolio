@@ -120,7 +120,7 @@ h1 {
   width: 150px;
   height: 150px;
   position: absolute;
-  background-image: url(./detalhe2.svg);
+  background-image: url(static/detalhe2.svg);
   background-repeat: no-repeat;
   z-index: -1;
   left: -50px;
@@ -289,7 +289,7 @@ p.course-name {
   content: "";
   width: 30px;
   height: 30px;
-  background-image: url(./book.svg) !important;
+  background-image: url(static/book.svg);
   background-repeat: no-repeat;
   display: block;
   background-size: contain;
@@ -333,7 +333,7 @@ footer {
   width: 100px;
   height: 100px;
   position: absolute;
-  background-image: url(./detalhe2.svg);
+  background-image: url(static/detalhe2.svg);
   background-repeat: no-repeat;
   background-size: contain;
   left: calc(50% - 50px);
